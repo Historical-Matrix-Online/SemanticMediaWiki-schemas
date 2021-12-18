@@ -1,1 +1,1 @@
-# SemanticMediaWiki-schemas
+# Semantic MediaWiki Schemas
