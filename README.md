@@ -1,0 +1,1 @@
+# SemanticMediaWiki-schemas
