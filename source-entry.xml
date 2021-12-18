@@ -1,0 +1,345 @@
+<PageSchema>
+  <pageforms_Form name="Source passage">
+    <CreateTitle>New source passage</CreateTitle>
+    <EditTitle>Edit source passage</EditTitle>
+  </pageforms_Form>
+  <Template name="Source passage">
+    <Field name="Source text date start (julian, circumcision)">
+      <Label>Source text date start (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text date end (julian, circumcision)">
+      <Label>Source text date end (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text date start (gregorian, circumcision)">
+      <Label>Source text date start (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text date end (gregorian, circumcision)">
+      <Label>Source text date end (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Traditional date">
+      <Label>Traditional date</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Traditonal calendar general">
+      <Label>Traditional calendar general</Label>
+      <pageforms_FormInput>
+        <InputType>textarea with autocomplete</InputType>
+        <Parameter name="values from category">Traditional calendar general</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Traditional calendar">
+      <Label>Traditional calendar</Label>
+      <pageforms_FormInput>
+        <InputType>textarea with autocomplete</InputType>
+        <Parameter name="values from category">Traditional calendar style</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Traditional dating year beginning style">
+      <Label>Traditional dating year beginning style</Label>
+      <pageforms_FormInput>
+        <InputType>listbox</InputType>
+        <Parameter name="values from category">Traditional dating year beginning style</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="City" list="list">
+      <Label>City</Label>
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Parameter name="values from category">City</Parameter>
+        <Description>Mentioned in source text</Description>
+        <DescriptionTooltipMode>on</DescriptionTooltipMode>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Modern state" list="list">
+      <Label>Modern state</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Description>Mentioned in source text</Description>
+        <DescriptionTooltipMode>on</DescriptionTooltipMode>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Historical region" list="list">
+      <Label>Historical region</Label>
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Parameter name="values from category">Historical region</Parameter>
+        <Description>Mentioned in source text</Description>
+        <DescriptionTooltipMode>on</DescriptionTooltipMode>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="River" list="list">
+      <Label>River</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">River</Parameter>
+        <Description>Mentioned in source text</Description>
+        <DescriptionTooltipMode>on</DescriptionTooltipMode>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text">
+      <Label>Source text</Label>
+      <pageforms_FormInput>
+        <InputType>textarea</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text reference">
+      <Label>Source text reference</Label>
+      <pageforms_FormInput>
+        <InputType>textarea with autocomplete</InputType>
+        <Parameter name="values from category">Source text reference</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text reference page">
+      <Label>Source text reference page</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Number</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text translation">
+      <Label>Source text translation</Label>
+      <pageforms_FormInput>
+        <InputType>textarea</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text translation reference">
+      <Label>Source text translation reference</Label>
+      <pageforms_FormInput>
+        <InputType>textarea with autocomplete</InputType>
+        <Parameter name="values from category">Source text translation reference</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text translation reference page">
+      <Label>Source text translation reference page</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Number</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena season" list="list">
+      <Label>Season</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Season</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena quantity and duration" list="list">
+      <Label>Quantity and duration</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena quantity and duration</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena temperature" list="list">
+      <Label>Temperature</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena temperature</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena storm" list="list">
+      <Label>Storm</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena storm</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena hydrometeology" list="list">
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena hydrometeology</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena tectonic" list="list">
+      <Label>Tectonic phenomena</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena tectonic</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena atmospheric" list="list">
+      <Label>Atmospheric phenomena</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena atmospheric</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena supernatural" list="list">
+      <Label>Supernatural phenomena</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena supernatural</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena disease" list="list">
+      <Label>Disease</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena disease</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena agriculture and botany" list="list">
+      <Label>Agriculture and botany</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena agriculture and botany</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena economics" list="list">
+      <Label>Economics</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena economics</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena fire" list="list">
+      <Label>Fire</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena fire</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena society" list="list">
+      <Label>Society</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena society</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena mortality" list="list">
+      <Label>Mortality</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena mortality</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Phenomena social class" list="list">
+      <Label>Social class</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Phenomena social class</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Contemporaneity">
+      <Label>Contemporaneity</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Contemporaneity</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
