@@ -1,0 +1,110 @@
+<PageSchema>
+  <pageforms_Form name="Source author">
+    <CreateTitle>Create source author</CreateTitle>
+    <EditTitle>Edit source author</EditTitle>
+  </pageforms_Form>
+  <Template name="Source author">
+    <Field name="Source author name">
+      <Label>Author name</Label>
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Parameter name="values from category">Source author</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author name alternatives" list="list">
+      <Label>Alternative names</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author lifetime begin (julian, circumcision)">
+      <Label>Lifetime begin (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author lifetime end (julian, circumcision)">
+      <Label>Lifetime end (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author lifetime begin (gregorian, circumcision)">
+      <Label>Lifetime begin (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author lifetime end (gregorian, circumcision)">
+      <Label>Lifetime end (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source text author city" list="list">
+      <Label>Cities the author lived in</Label>
+      <pageforms_FormInput>
+        <Parameter name="values from category">City</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author role" list="list">
+      <Label>Role</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Parameter name="values from category">City</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author comment">
+      <Label>Comment</Label>
+      <pageforms_FormInput>
+        <InputType>textarea</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author links" list="list">
+      <Label>Informative links</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>URL</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source name">
+      <Label>Source name</Label>
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Parameter name="values from category">Source name</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>

@@ -1,0 +1,137 @@
+<PageSchema>
+  <pageforms_Form name="Source">
+    <CreateTitle>Create source</CreateTitle>
+    <EditTitle>Edit source</EditTitle>
+  </pageforms_Form>
+  <Template name="Source">
+    <Field name="Source name">
+      <Label>Source name</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source author name">
+      <Label>Source author name</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Parameter name="values from category">Source author name</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source report time begin (julian, circumcision)">
+      <Label>Source report time begin (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source report time end (julian, circumcision)">
+      <Label>Source report time end (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source report time begin (gregorian, circumcision)">
+      <Label>Source report time begin (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source report time end (gregorian, circumcision)">
+      <Label>Source report time end (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source creation time begin (julian, circumcision)">
+      <Label>Source creation time begin (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source creation time end (julian, circumcision)">
+      <Label>Source creation time end (julian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source creation time begin (gregorian, circumcision)">
+      <Label>Source creation time begin (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source creation time end (gregorian, circumcision)">
+      <Label>Source creation time end (gregorian, circumcision)</Label>
+      <pageforms_FormInput>
+        <InputType>date</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Date</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source city" list="list">
+      <Label>City were the source was created</Label>
+      <pageforms_FormInput>
+        <Parameter name="values from category">City</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source genre">
+      <Label>Genre</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Source genre</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Access">
+      <Label>Access</Label>
+      <pageforms_FormInput>
+        <InputType>checkboxes</InputType>
+        <Parameter name="values from category">Access</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Source comment">
+      <Label>Source comment</Label>
+      <pageforms_FormInput>
+        <InputType>textarea</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+  </Template>
+</PageSchema>
